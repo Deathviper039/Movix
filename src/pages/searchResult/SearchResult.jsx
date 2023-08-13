@@ -46,7 +46,7 @@ const SearchResult = () => {
           {data?.results?.length>0?(
             <>
             <div className="pageTitle">
-              {`Search ${data?.total_results>1?"results":"result"}of '${query}'`}
+              {`Search ${data?.total_results>1?"results":"result"} of '${query}'`}
             </div>
             <InfiniteScroll
               className="content"
